@@ -1,3 +1,4 @@
+import {secretButton,secretParagraph} from './dom-loader.js'
 var showSecret = false;
 
 secretButton.addEventListener('click', toggleSecretState);
